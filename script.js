@@ -12,6 +12,3 @@ function updateUTCTime() {
   setInterval(updateTime, 1000);
 }
 
-updateUTCTime();
-
-document.getElementById("refresh-btn").addEventListener("click", updateUTCTime);
